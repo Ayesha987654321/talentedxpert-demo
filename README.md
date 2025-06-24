@@ -20,11 +20,6 @@ TalentedXpert is a modern freelance marketplace similar to Upwork and Fiverr, de
 - **UI**: Tailwind CSS / Custom CSS Modules
 - **Icons**: React Icons / Custom Assets
 
-## 🧑‍💻 Developer
-
-**Farhan Arif**  
-Frontend Developer of TalentedXpert  
-Built scalable UI components and worked on the core logic for job listings, expert profiles, and chat interface.
 
 ## 📦 Getting Started
 
