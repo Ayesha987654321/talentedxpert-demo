@@ -1,0 +1,84 @@
+.sign-in .card {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3019607843);
+}
+
+.sign-in .bg-tertiary {
+  background: var(--color_tertiary);
+}
+
+.sign-in ::-moz-placeholder {
+  color: var(--color_placeholder) !important;
+  font-size: var(--fs14);
+}
+
+.sign-in ::placeholder {
+  color: var(--color_placeholder) !important;
+  font-size: var(--fs14);
+}
+
+.sign-in .form-control {
+  color: var(--color_white) !important;
+}
+
+.sign-in .text-placeholder {
+  top: 43px;
+  position: absolute;
+  color: var(--color_placeholder) !important;
+  right: 20px;
+}
+
+.sign-in .signin-line {
+  width: 100%;
+  height: 28px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.sign-in .signin-btn {
+  width: 150px;
+}
+
+.sign-in .forget {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sign-in-text{
+  white-space: nowrap;
+}
+
+.sign-in .forget:hover {
+  text-decoration: underline !important;
+}
+
+.sign-in .signin-rectangle {
+  width: 55px;
+  height: 30px;
+  background-color: var(--color_black) !important;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in .form-check-input:checked[type=checkbox] {
+  filter: invert(1);
+  border-color: var(--color_white) !important;
+}
+
+.sign-in .form-check-input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.footer-section .footer-text:hover {
+  color: var(--color_hover_primary) !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.footer-section .border-grey {
+  border-color: var(--color_border) !important;
+}
+
+/*# sourceMappingURL=signin.css.map */

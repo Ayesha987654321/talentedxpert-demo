@@ -1,0 +1,48 @@
+body .btn {
+  min-width: 100px;
+}
+body .btn:focus-visible {
+  box-shadow: none;
+}
+body .btn-check:checked + .btn,
+body .btn.active,
+body .btn.show,
+body .btn:first-child:active,
+body :not(.btn-check) + .btn:active {
+  color: var(--color_secondary);
+  background-color: var(--color_primary);
+  border-color: var(--color_primary);
+}
+body .btn-outline-primary {
+  border-color: var(--color_black);
+  color: var(--color_black);
+}
+body .btn-outline-primary:hover, body .btn-outline-primary:focus, body .btn-outline-primary:active {
+  background-color: var(--color_primary);
+  border-color: var(--color_primary);
+  color: var(--color_secondary);
+}
+body .btn-primary {
+  background-color: var(--color_primary);
+  border-color: var(--color_primary);
+  color: var(--color_black);
+}
+body .btn-primary:hover, body .btn-primary:focus, body .btn-primary:active {
+  background-color: var(--color_hover_primary);
+  border-color: var(--color_primary);
+  color: var(--color_secondary);
+}
+body .btn_outline_primary {
+  padding: 10px;
+  border: solid 1px var(--color_primary);
+}
+body .btn-outline-info {
+  border-color: var(--color_primary);
+  color: var(--color_black);
+
+}
+body .btn-outline-info:hover, body .btn-outline-info:focus, body .btn-outline-info:active {
+  background-color: var(--color_primary);
+  border-color: var(--color_primary);
+  color: var(--color_secondary);
+}/*# sourceMappingURL=buttons.css.map */

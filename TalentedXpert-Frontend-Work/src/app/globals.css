@@ -1,0 +1,236 @@
+:root {
+  --max-width: 1280px;
+  --border-radius: 12px;
+  --font-inter: "Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --foreground-rgb: 0, 0, 0;
+  --color_black: #000000;
+  --background-rgba: 255, 255, 255, 1;
+  --color_tertiary: rgba(239, 239, 239, 1);
+  --color_primary: #25cff2;
+  /* --color_primary: rgba(4, 244, 243, 1); */
+  /* --color_hover_primary: rgb(99 255 254); */
+  --color_hover_primary: #25cff2;
+  --color_secondary: rgba(0, 0, 0, 1);
+  --color_lightblue: rgba(234, 243, 248, 1);
+  --color_grey: rgba(25, 29, 35, 1);
+  --color_blue: rgba(10, 101, 204, 1);
+  --color_white: rgb(255, 255, 255);
+  --color_yellow: #ffc107;
+  --color_placeholder: #959595;
+  --color_background: #191D23;
+  --color_border: #3D4653;
+
+  
+
+  /* font size*********** */
+  --fs10: 10px;
+  --fs12: 12px;
+  --fs13: 13px;
+  --fs14: 14px;
+  --fs15: 15px;
+  --fs16: 16px;
+  --fs17: 17px;
+  --fs18: 18px;
+  --fs19: 19px;
+  --fs20: 20px;
+  --fs21: 21px;
+  --fs22: 22px;
+  --fs23: 23px;
+  --fs24: 24px;
+  --fs40: 40px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  color: var(--color_grey);
+}
+
+p {
+  font-weight: 300;
+}
+
+.bg_black h1,
+.bg_black h2,
+.bg_black h3,
+.bg_black h4,
+.bg_black h5,
+.bg_black h6 {
+  color: var(--color_white);
+}
+
+.bg_black p,
+.bg_black a {
+  color: var(--color_tertiary);
+}
+
+a {
+  text-decoration: none;
+}
+
+.border{--color_border: #3D4653;}
+.bg_black {
+  background-color: var(--color_black);
+}
+
+.bg_tertiary {
+  background-color: var(--color_tertiary);
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: auto;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: var(--font-poppins);
+  background-color: rgba(var(--background-rgba));
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.rating span {
+  color: var(--color_tertiary);
+  font-size: 20px;
+}
+
+.rating .rated {
+  color: var(--color_yellow) !important;
+}
+
+footer {
+  margin-top: auto;
+}

@@ -1,0 +1,30 @@
+/* Change the body text color */
+.quill {
+    height: 100%; /* Total height for both toolbar and editor */
+    display: flex;
+    flex-direction: column; /* Stack the toolbar and editor vertically */
+}
+
+.ql-container {
+    flex: 1; /* Allow the editor to take up the remaining space */
+    overflow-y: auto; /* Add scroll if content overflows */
+}
+
+.ql-editor {
+    .ql-blank::before {
+        color: rgba(126, 126, 126, 0.696) !important;
+    }
+
+    * {
+        color: var(--color_grey) !important;
+        margin-bottom: 0.5rem !important;
+    }  
+    
+    strong {
+        font-weight: bold !important;
+    }
+
+}
+
+
+  
